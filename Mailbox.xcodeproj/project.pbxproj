@@ -14,6 +14,9 @@
 		B6689AB21D01231700321D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6689AB01D01231700321D60 /* LaunchScreen.storyboard */; };
 		B6689ABD1D01231700321D60 /* MailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6689ABC1D01231700321D60 /* MailboxTests.swift */; };
 		B6689AC81D01231700321D60 /* MailboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6689AC71D01231700321D60 /* MailboxUITests.swift */; };
+		B6689AD61D0124E100321D60 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6689AD51D0124E100321D60 /* MailboxViewController.swift */; };
+		B69CB8C91D0396BE009014D7 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CB8C81D0396BE009014D7 /* ComposeViewController.swift */; };
+		B69CB8CB1D039EF9009014D7 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = B69CB8CA1D039EF9009014D7 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B6689AC31D01231700321D60 /* MailboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6689AC71D01231700321D60 /* MailboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailboxUITests.swift; sourceTree = "<group>"; };
 		B6689AC91D01231700321D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6689AD51D0124E100321D60 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+		B69CB8C81D0396BE009014D7 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		B69CB8CA1D039EF9009014D7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		B6689A9B1D01231600321D60 = {
 			isa = PBXGroup;
 			children = (
+				B69CB8CA1D039EF9009014D7 /* readme.md */,
 				B6689AA61D01231700321D60 /* Mailbox */,
 				B6689ABB1D01231700321D60 /* MailboxTests */,
 				B6689AC61D01231700321D60 /* MailboxUITests */,
@@ -100,8 +107,10 @@
 				B6689AA71D01231700321D60 /* AppDelegate.swift */,
 				B6689AA91D01231700321D60 /* ViewController.swift */,
 				B6689AAB1D01231700321D60 /* Main.storyboard */,
+				B69CB8C81D0396BE009014D7 /* ComposeViewController.swift */,
 				B6689AAE1D01231700321D60 /* Assets.xcassets */,
 				B6689AB01D01231700321D60 /* LaunchScreen.storyboard */,
+				B6689AD51D0124E100321D60 /* MailboxViewController.swift */,
 				B6689AB31D01231700321D60 /* Info.plist */,
 			);
 			path = Mailbox;
@@ -258,6 +267,9 @@
 			files = (
 				B6689AAA1D01231700321D60 /* ViewController.swift in Sources */,
 				B6689AA81D01231700321D60 /* AppDelegate.swift in Sources */,
+				B6689AD61D0124E100321D60 /* MailboxViewController.swift in Sources */,
+				B69CB8CB1D039EF9009014D7 /* readme.md in Sources */,
+				B69CB8C91D0396BE009014D7 /* ComposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				B6689ACE1D01231700321D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6689ACF1D01231700321D60 /* Build configuration list for PBXNativeTarget "MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				B6689AD11D01231700321D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6689AD21D01231700321D60 /* Build configuration list for PBXNativeTarget "MailboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				B6689AD41D01231700321D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
